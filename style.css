@@ -6,7 +6,7 @@
 header{
     background-color: blue;
     height:308px;
-    width: 2300px;
+    width: 2160px;
 
 }
 .proeqtebi{
@@ -23,7 +23,10 @@ h1{
 img{
     width: 463px;
     height:420px;
-    margin-right:25px;    
+    margin-right:25px;
+    border: 2px solid red;   
+    background-color: #FFFFFF; 
+    border-radius: 28px;
 }
 #suratebi{    
     display: inline-flex;
@@ -45,6 +48,8 @@ p{
     width: 443px;
     height: 125px;
     background-color: #FFFFFF;
+    border: 2px rgb(220, 228, 255);
+    border-radius: 28px;
 }
 .relative{
     position: relative;
@@ -55,6 +60,7 @@ p{
     left:240px;
     width: 443px;
     height: 125px;
+    background-attachment: fixed;
 }
 .absolute1{
     position: absolute;
@@ -62,6 +68,9 @@ p{
     left:250px;
     display:inline-flex;
     width: max-content;
+}
+#absolute11{
+     background-color:blue;
 }
 
 
