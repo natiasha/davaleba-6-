@@ -1,0 +1,67 @@
+* { 
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    background-color: blue;
+    height:308px;
+    width: 2300px;
+
+}
+.proeqtebi{
+    width: 184px;
+    height: 38px;
+    padding-left: 240px;
+    padding-top: 70px;
+}
+h1{
+    size: 32px;
+    color:#FFFFFF;
+    font: normal normal bold 32px/39px Helvetica Neue;
+}
+img{
+    width: 463px;
+    height:420px;
+    margin-right:25px;    
+}
+#suratebi{    
+    display: inline-flex;
+    width: max-content;
+}
+div{
+    padding-right: 45px;
+}
+p{
+    color:#171717;
+    size: 18px;
+    text-align: left;
+    text-transform: uppercase;
+    font: normal normal normal 18px/22px Helvetica Neue;
+    padding-top: 30px;
+    padding-left: 30px;
+    backdrop-filter: blur(10px);
+    border-radius: 12px;
+    width: 443px;
+    height: 125px;
+    background-color: #FFFFFF;
+}
+.relative{
+    position: relative;
+}
+.absolute {
+    position: absolute;
+    top:158px;
+    left:240px;
+    width: 443px;
+    height: 125px;
+}
+.absolute1{
+    position: absolute;
+    top: 443px;
+    left:250px;
+    display:inline-flex;
+    width: max-content;
+}
+
+
